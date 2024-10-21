@@ -6,7 +6,9 @@ can range from politicians, environmental campaigns, marketing campaigns, aborti
 In this repository, a research work of Machine Committee on Stance Detection is provided
 in the hopes to promote further research work on Stance Detection. 
 
-<img src="https://github.com/user-attachments/assets/3761da01-d322-46e6-93de-cca9fdfb40a3" width=70% height=70%> <br />
+<div align="center">
+	<img src="https://github.com/user-attachments/assets/3761da01-d322-46e6-93de-cca9fdfb40a3" width=70% height=70%>
+</div><br />
 
 Particularly, a Decorrelated Ensemble Model composed of multiple BERT models is developed. 
 BERT models are the committee members, and they learn by supporting each other by each addressing 

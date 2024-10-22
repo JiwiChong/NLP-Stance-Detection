@@ -38,3 +38,8 @@ Deep Learning algorithms for both Semeval-2016 and Will-they-won't-they datasets
 In addition, an explainable Stance Detection is executed in order to illustrate key words that
 led to the Stance of the texts. 
 
+### Commands
+**_Train and Evaluation_**
+python main.py --main_dir (Directory of repository) --num_experts (# of models in Ensemble) --task (Data used) --lambda_ (Lambda value in loss func) --emb_max_len (Max length of BERT embedding) --num_classes (# of output classes) --run_num (# of run)
+
+

@@ -39,7 +39,7 @@ In addition, an explainable Stance Detection is executed in order to illustrate 
 led to the Stance of the texts. 
 
 ### Commands
-**_Train and Evaluation_**
+**_Train and Evaluation_** <br />
 python main.py --main_dir (Directory of repository) --num_experts (# of models in Ensemble) --task (Data used) --lambda_ (Lambda value in loss func) --emb_max_len (Max length of BERT embedding) --num_classes (# of output classes) --run_num (# of run)
 
 

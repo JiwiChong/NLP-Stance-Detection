@@ -7,7 +7,7 @@ In this repository, a research work of Machine Committee on Stance Detection is 
 in the hopes to promote further research work on Stance Detection. 
 
 <div align="center">
-	<img src="https://github.com/user-attachments/assets/3761da01-d322-46e6-93de-cca9fdfb40a3" width=70% height=70%>
+	<img src="https://github.com/user-attachments/assets/3761da01-d322-46e6-93de-cca9fdfb40a3" width=80% height=80%>
 </div><br />
 
 Particularly, a Decorrelated Ensemble Model composed of multiple BERT models is developed. 
@@ -17,7 +17,7 @@ decorrelated from what others, ensuring the Ensemble Model is learned to general
 across the dataset.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/08785f73-c73f-4882-ae58-ad2f355ee9f6" width=80% height=85%>
+<img src="https://github.com/user-attachments/assets/08785f73-c73f-4882-ae58-ad2f355ee9f6" width=85% height=90%>
 </div><br />
 
 The BERT Decorrelated Ensemble Model outperformed every state-of-the-art Machine Learning and
@@ -40,6 +40,8 @@ led to the Stance of the texts.
 
 ### Commands
 **_Train and Evaluation_** <br />
+```python
 python main.py --main_dir (Directory of repository) --num_experts (# of models in Ensemble) --task (Data used) --lambda_ (Lambda value in loss func) --emb_max_len (Max length of BERT embedding) --num_classes (# of output classes) --run_num (# of run)
+```
 
 

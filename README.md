@@ -13,14 +13,14 @@ in the hopes to promote further research work on Stance Detection.
 Particularly, a Decorrelated Ensemble Model composed of multiple BERT models is developed. 
 BERT models are the committee members, and they learn by supporting each other by each addressing 
 different parts of the dataset. This is done so by having each model's learning patterns be
-decorrelated from what others, ensuring the Ensemble Model is learned to generalize better
+decorrelated from what others attenpt to detect, ensuring the Ensemble Model is learned to generalize better
 across the dataset.
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/08785f73-c73f-4882-ae58-ad2f355ee9f6" width=85% height=90%>
 </div><br />
 
-The BERT Decorrelated Ensemble Model outperformed every state-of-the-art Machine Learning and
+The BERT Decorrelated Ensemble Model outperformed every original state-of-the-art Machine Learning and
 Deep Learning algorithms for both Semeval-2016 and Will-they-won't-they datasets.
 
 **_Semeval-2016_** <br />

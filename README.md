@@ -1,4 +1,4 @@
-# NLP-Stance-Detection
+# LLM-Stance-Detection
 
 Stance Detection is a task in which textual processing and interpretability is made in order
 to observe the viewpoint and stance that a person makes regarding a target. The target
